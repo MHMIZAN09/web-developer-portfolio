@@ -53,6 +53,10 @@
 
 }
 
+.text-center {
+  text-align: center;
+}
+
 /* header  */
 .header {
   background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -182,4 +186,64 @@ main {
   font-size: 16px;
   font-weight: 400;
 
+}
+
+.resume {
+  margin-top: 130px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 71px;
+}
+
+.resume-column-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.experience-title {
+  font-size: 25px;
+  font-weight: 700;
+  color: #474747;
+}
+
+.experience-sub-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+}
+
+.experience-description {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.resume-download-cv {
+  margin-top: 30px;
+}
+
+
+/* footer style  */
+
+footer {
+  display: flex;
+  gap: 100px;
+  padding: 130px 230px;
+}
+
+.footer-column {
+  width: 50%;
+}
+
+footer input[type="text"],footer input[type="email"],footer textarea  {
+  width: 100%;
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  color: #757575;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
 }
