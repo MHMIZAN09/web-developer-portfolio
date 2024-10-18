@@ -12,6 +12,12 @@
 }
 
 /* shared style  */
+.secondary-bg {
+  background-color: #FFF8F3;
+  margin-top: 130px;
+  border-radius: 10px;
+  padding: 130px 150px;
+}
 
 .text-primary {
   color: #FD6E0A;
@@ -29,6 +35,20 @@
   border-radius: 5px;
   border: none;
   font-size: 20px;
+}
+
+.section-title {
+  font-size: 35px;
+  font-weight: 700;
+  color: #181818;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.section-description {
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 30px;
 }
 
 /* header  */
@@ -103,4 +123,28 @@ nav li a {
   width: 584px;
   height: 676px;
   flex-shrink: 0;
+}
+
+/* main style  */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/* about style  */
+
+.about {
+  background-color: white;
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+.about-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.item-description {
+  font-weight: 600;
+  
 }
